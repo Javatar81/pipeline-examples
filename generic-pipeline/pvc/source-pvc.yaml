@@ -1,9 +1,9 @@
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: source-pvc
+  name: source-pvc-tekton
 spec:
-  storageClassName: ibmc-file-bronze
+  storageClassName: ibmc-block-bronze
   accessModes:
     - ReadWriteOnce
   resources:
