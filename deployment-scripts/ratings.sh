@@ -6,6 +6,7 @@ export CONTAINER_NAME=ratings
 export MANIFEST_FILE_OR_DIR=samples/bookinfo/platform/kube/bookinfo-ratings.yaml
 export GIT_URL=https://github.com/istio/istio.git
 export GIT_SUBDIR=samples/bookinfo/src/$DEPLOYMENT_NAME/
+export GIT_REVISION=master
 
 chmod +x start-pipe-run.sh
 
